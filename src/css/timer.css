@@ -1,0 +1,26 @@
+.timer {
+  display: flex;
+  margin-top: 20px;
+}
+
+.field {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.field:not(:last-child) {
+  margin-right: 10px;
+}
+
+.value {
+  margin: 0 auto;
+  font-size: 40px;
+}
+
+.label {
+  margin: 0 auto;
+  text-transform: uppercase;
+}
